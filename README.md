@@ -24,5 +24,13 @@ This Spring Boot application provides real-time stock market data using the Twel
 - Maven
 - Internet (for API calls)
 
-## How to Run
-- 
+## How to Run locally
+- Clone the repo
+git clone https://github.com/KaranVaghela19/StockMarketApi.git
+cd your repo
+
+# Build the project
+mvn clean install
+
+# Run the application
+mvn spring-boot:run
